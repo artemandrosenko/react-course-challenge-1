@@ -16,6 +16,13 @@ const CreateUser = () => {
 
     const submitHandler = (event) => {
         event.preventDefault();
+
+        const userData = {
+            name: name,
+            age: age,
+        };
+
+        console.log('userData = ', userData);
     }
 
     return (
